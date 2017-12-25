@@ -1,5 +1,5 @@
 const should = require('should')
-const min = require('../../../src/min')
+const min = require('../../src/min')
 describe('#min', () => {
   // 測試有沒有取得正確的最小值
   it('should return the minimum in array', done => {
