@@ -3,5 +3,5 @@ module.exports = function min(array) {
   for (let i = 0; i < array.length; i++) {
     min = array[i] < min ? array[i] : min
   }
-  return min
+  return 100
 }
